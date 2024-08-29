@@ -68,7 +68,7 @@
                 </div>
 
                 <div class="nav__buttons">
-                    <!--<i class="ri-moon-line change-theme" id="theme-button"></i> -->
+                    
 
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="ri-menu-4-line"></i>
@@ -350,7 +350,64 @@
 
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section_title">Contact me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid section__border">
                 
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-chat-3-line"></i>chat to me
+                        </h3>
+                        <div class="contact__info">
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">Email</span>
+                                <span class="contact__data">venkatasaiattada123@gmail.com</span>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">whatsapp</span>
+                                <span class="contact__data">7569020526</span>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            contact me
+                        </h3>
+
+                        <form action="" class="contact__form" id="contact-form">
+
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Name</label>
+                                <input type="text" name="user_name" required placeholder="write your names" class="contact__form-input" id="contact-name">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Email</label>
+                                <input type="email" name="user_email" required placeholder="write your email" class="contact__form-input" id="contact-email">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">write to me</label>
+                                <textarea name="user_msg" required placeholder="write your msg" class="contact__form-input" id="contact-msg"></textarea>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="contact__button">
+
+                                submit <i class="ri-arrow-right-up-line"></i>
+                            </button>
+
+
+                        </form>
+                    </div>
+                </div>   
             </section>
         </main>
 
@@ -370,7 +427,10 @@
         <script src=""></script>
         
         <!--=============== EMAIL JS ===============-->
-        
+        <script
+             type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
 
         <!--=============== MAIN JS ===============-->
         <script src="main.js"></script>
